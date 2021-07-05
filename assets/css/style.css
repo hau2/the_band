@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica,Arial, sans-serif;
 }
 /* 
 1. từ ngoài vào trong
@@ -20,40 +20,29 @@ html {
 3. màu sắc
 4. Kiểu dáng (Kiểu chữ, hình tròn, vuông)
 */
-#main{
-
-}
-
 #header{
     height: 46px;
     background-color: #000;
 }
-
-#nav {
-
-}
-
-#nav li {
-
-}
-
-#nav .subnav {
-    display: none;
-}
-
 #nav li {
     display: inline-block;
 }
 #nav li a {
-    color: #fff;
+    color:#fff;
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
     display: inline-block;
 }
 #nav li:hover a {
-    color: #000;
     background-color: #ccc;
+    color: #000;
+}
+#nav{
+
+}
+#nav .subnav{
+    display: none;
 }
 #slider{
 
