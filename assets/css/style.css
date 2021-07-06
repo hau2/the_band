@@ -24,6 +24,10 @@ html {
     height: 46px;
     background-color: #000;
 }
+#nav {
+    display: inline-block;
+}
+
 #nav, .subnav{
     list-style-type: none;
 }
@@ -70,11 +74,25 @@ html {
     padding: 0 16px;
     line-height: 38px;
 }
+#nav .subnav-arrow-down {
+    font-size: 14px;
+}
+#header .search-btn {
+    float:right;
+    padding: 0 21px;
+}
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-icon {
+    color: #fff;
+    line-height: 46px;
+}
 #slider{
     min-height: 500px;
    background-color: #fff;
 }
-
 #content{
 
 }
