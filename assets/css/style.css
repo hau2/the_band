@@ -20,11 +20,30 @@ html {
 3. màu sắc
 4. Kiểu dáng (Kiểu chữ, hình tròn, vuông)
 */
+/* Common */
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col {
+    float: left;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.col-harf {
+    width: 50%;
+}
+.col-third {
+    width: 33.33333%;
+}
 .clear {
     clear: both;
 }
 .text-white {
     color: #fff !important;
+}
+.text-center {
+    text-align: center !important;
 }
 #header{
     position: fixed;
@@ -157,11 +176,6 @@ html {
     padding-top: 48px;
     overflow: hidden;
 }
-#content .member-item {
-    float: left;
-    width: 33.33333%;
-    text-align: center;
-}
 #content .member-name {
     font-size: 15px;
 }
@@ -185,7 +199,7 @@ html {
     border: 1px solid #ddd;
     color: #757575;
 }
-.tickets-list .sould-out {
+.tickets-list .sold-out {
     color: #fff;
     background-color: #f44336;
     padding: 3px 4px;
@@ -204,12 +218,8 @@ html {
 }
 /* Places */
 .places-list{
-    margin: 32px -8px 48px;
-}
-.place-item{
-    float: left;
-    width: 33.3333%;
-    padding: 0 8px;
+    margin-top: 32px;
+    margin-top: 48px;
 }
 .place-img{
     width: 100%;
