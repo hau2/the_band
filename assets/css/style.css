@@ -66,6 +66,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .text-white {
     color: #fff !important;
 }
@@ -351,6 +355,7 @@ html {
     margin-top: 15px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 .btn:hover {
