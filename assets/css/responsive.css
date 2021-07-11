@@ -1,13 +1,28 @@
 /* PC */
-@media (min-width: 1024px) {
 
-}
+@media (min-width: 1024px) {}
+
+
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
 
-}
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+
 /* Mobile */
+
 @media (max-width: 740px) {
+    .s-col-full {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
     #nav {
         display: block;
     }
@@ -28,13 +43,7 @@
     #nav li a {
         padding: 1px 24px;
     }
-    #header {
-        overflow: hidden;
-    }
-    #header .search-btn {
-        display: none;
-    }
-    #header .mobile-menu-btn {
-        display: block;
+    #content .member-img {
+        width: 60%;
     }
 }
